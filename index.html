@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Phone shop</title>
+</head>
+
+<body>
+  <header>
+    <h1>Phone Shop</h1>
+    <a href="#korpa"><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+  </header>
+  <main>
+    <div class="phone">
+      <img class="phone-pic" src="images/iphone12mini.jpeg" alt="iphone12mini">
+      <div class="phone-title">iPhone 12 Mini</div>
+      <div class="phone-price">599 €</div>
+      <button class="btn-add" type="button">Add to cart</button>
+    </div>
+    <div class="phone">
+        <img class="phone-pic" src="images/iphone12.jpeg" alt="iphone12">
+      <div class="phone-title">iPhone 12</div>
+      <div class="phone-price">799 €</div>
+      <button class="btn-add" type="button">Add to cart</button>
+    </div>
+    <div class="phone">
+      <img class="phone-pic" src="images/iphone13mini.jpeg" alt="iphone13mini">
+      <div class="phone-title">iPhone 13 Mini</div>
+      <div class="phone-price">799 €</div>
+      <button class="btn-add" type="button">Add to cart</button>
+    </div>
+    <div class="phone">
+     <img class="phone-pic" src="images/iphone13.jpeg" alt="iphone13">
+      <div class="phone-title">iPhone 13</div>
+      <div class="phone-price">899 €</div>
+      <button class="btn-add" type="button">Add to cart</button>
+    </div>
+    <div class="phone">
+      <img class="phone-pic" src="images/iphone14.jpeg" alt="iphone14">
+      <div class="phone-title">iPhone 14</div>
+      <div class="phone-price">999 €</div>
+      <button class="btn-add" type="button">Add to cart</button>
+    </div>
+    <div class="phone">
+      <img class="phone-pic" src="images/iphone14plus.jpeg" alt="iphone14plus">
+      <div class="phone-title">iPhone 14 Plus</div>
+      <div class="phone-price">1149 €</div>
+      <button class="btn-add" type="button">Add to cart</button>
+    </div>
+  </main>
+  <section class="cart-section">
+    <h2 id="korpa">Cart</h2>
+    <div class="proizvodi-row">
+      <div class="proizvod cart-item cart-header cart-column">Product</div>
+      <div class="cena cart-price cart-header cart-column">Price</div>
+      <div class="kolicina cart-quantity cart-header cart-column">Quantity</div>
+    </div>
+    <div class="cart-items"></div>
+    <div class="total">
+      <p id="total-p">Total is </p>
+      <span class="total-span">€0</span>
+    </div>
+    <button class="btn-naruci" type="button">Complete order</button>
+  </section>
+  <footer>&#169; 2022 Phone shop. All rights reserved</footer>
+  <script src="js.js"></script>
+</body>
+
+</html>
